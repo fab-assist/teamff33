@@ -1,0 +1,12 @@
+﻿node_modules/
+dist/
+dist-KC/
+gifs_docteur_fitness/
+extract-appli-mobile/
+.env
+.env.local
+.env.production
+.bolt/
+.claude/
+*.tar.gz
+package-lock.json
