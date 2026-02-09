@@ -141,6 +141,11 @@ export default function CoachLogin() {
             </button>
 
             <div className="text-center space-y-2">
+              <div className="text-sm">
+                <Link to="/coach/reset-password" className="text-blue-600 hover:text-blue-700 font-medium">
+                  Mot de passe oublié ?
+                </Link>
+              </div>
               <div className="text-sm text-slate-600">
                 Pas encore de compte ?{' '}
                 <Link to="/coach/signup" className="text-blue-600 hover:text-blue-700 font-medium">

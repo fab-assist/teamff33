@@ -90,6 +90,11 @@ export default function AdherentLogin() {
             </button>
 
             <div className="text-center space-y-2">
+              <div className="text-sm">
+                <Link to="/adherent/reset-password" className="text-rose-600 hover:text-rose-700 font-medium">
+                  Mot de passe oublié ?
+                </Link>
+              </div>
               <div className="text-sm text-slate-600">
                 Pas encore inscrit ?{' '}
                 <Link to="/adherent/signup" className="text-rose-600 hover:text-rose-700 font-medium">

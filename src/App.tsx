@@ -17,6 +17,10 @@ import CoachMessages from './pages/coach/Messages';
 import ValidateCoach from './pages/admin/ValidateCoach';
 import AdherentLogin from './pages/AdherentLogin';
 import AdherentSignup from './pages/AdherentSignup';
+import ResetPassword from './pages/ResetPassword';
+import UpdatePassword from './pages/UpdatePassword';
+import ResetPasswordCoach from './pages/ResetPasswordCoach';
+import UpdatePasswordCoach from './pages/UpdatePasswordCoach';
 import AdherentLayout from './components/AdherentLayout';
 import AdherentDashboard from './pages/adherent/AdherentDashboard';
 import MesCoursCollectifs from './pages/adherent/MesCoursCollectifs';
@@ -60,6 +64,8 @@ function App() {
           {/* Coach routes */}
           <Route path="/coach/login" element={<CoachLogin />} />
           <Route path="/coach/signup" element={<CoachSignup />} />
+          <Route path="/coach/reset-password" element={<ResetPasswordCoach />} />
+          <Route path="/coach/update-password" element={<UpdatePasswordCoach />} />
           
           {/* Admin route */}
           <Route path="/admin/validate-coach" element={<ValidateCoach />} />
@@ -189,6 +195,8 @@ function App() {
           {/* Adherent routes */}
           <Route path="/adherent/login" element={<AdherentLogin />} />
           <Route path="/adherent/signup" element={<AdherentSignup />} />
+          <Route path="/adherent/reset-password" element={<ResetPassword />} />
+          <Route path="/adherent/update-password" element={<UpdatePassword />} />
 
           {/* Protected Adherent routes */}
           <Route
